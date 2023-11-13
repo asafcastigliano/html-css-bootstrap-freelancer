@@ -34,3 +34,12 @@ ul{
     height: 100px;
     width: 100px;
 }
+
+.height-30{
+    height: 40px;
+}
+
+.width-100px{
+    width: 100px;
+    border-bottom: 10px solid white;
+}
