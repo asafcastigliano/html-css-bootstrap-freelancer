@@ -39,7 +39,29 @@ ul{
     height: 40px;
 }
 
-.width-100px{
+.white-line{
     width: 100px;
-    border-bottom: 10px solid white;
+    border: 3px solid white;
+    margin: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
+.img-avatar{
+    width: 100px;
+}
+
+@media  screen and (max-width: 320px) {
+    header .show{
+        display: none;
+    }
+    header .hide{
+        display: flex;
+    }
 }
